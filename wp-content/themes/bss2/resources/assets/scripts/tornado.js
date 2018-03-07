@@ -316,7 +316,7 @@ $(document).ready(function () {
         });
     } 
     
-    new WOW({ callback: afterReveal }).init()
+    new WOW({ callback: afterReveal, live: false }).init()
     
     /*=== Parallax Mouse ===*/
     $('.parallax-mbg').on("mousemove",function(e){

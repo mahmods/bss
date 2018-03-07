@@ -9,10 +9,13 @@
     </div>
     {!! get_search_form(false) !!}
   @endif
-
+  <div class="container page-content">
+  <div class="row">
   @while (have_posts()) @php(the_post())
+  
     @include('partials.content-'.get_post_type())
   @endwhile
-
+  </div>
+  </div>
   {!! get_the_posts_navigation() !!}
 @endsection

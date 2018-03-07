@@ -345,10 +345,12 @@ footer .copy-rights .social a:hover{color:#5e5e5e;}
 .join-us h3{font-size:22px;color:#FFF;margin-top:15px;}
 .join-us h5{font-size:15px;color:#FFF;}
 .join-us img{position:relative;left:5px;}
-.team-photos{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-align-content:stretch;-ms-flex-line-pack:stretch;align-content:stretch;}
+.team-photos{/* display:-webkit-box; */display:-webkit-flex;display:-ms-flexbox;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;/* flex-wrap:wrap; *//* display:flex; *//* -webkit-box-pack:start; *//* -webkit-justify-content:flex-start; */-ms-flex-pack:start;/* justify-content:flex-start; *//* -webkit-align-content:stretch; */-ms-flex-line-pack:stretch;/* align-content:stretch; */}
 .team-photos{background:#191919;}
-.team-photos img{opacity:0.5;-webkit-transition:all 0.3s;transition:all 0.3s;position:relative;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}
-.team-photos img:hover{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05);opacity:1;z-index:100;}
+.team-photos a{-webkit-transition:all 0.3s;transition:all 0.3s;position:relative;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;/* flex-grow:1; */}
+.team-photos img{opacity:0.5;-webkit-transition:all 0.3s;transition:all 0.3s;position:relative;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;/* flex-grow:1; */}
+.team-photos img:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);opacity:1;z-index:100;}
+.team-photos a:hover{z-index:100;}
 header{position:relative;z-index:100;}
 .page-head{position:relative;z-index:99;}
 /* Group Inside Info Graphic */
@@ -445,3 +447,6 @@ header{position:relative;z-index:100;}
   .lightbox-rbany .content h3{font-size:18px;}
   .lightbox-rbany .content .btn{width:100%;}
   .lightbox-rbany .content .close{border-radius:50%;position:absolute;top:-10px;right:-10px;border:2px solid #FFF;background:rgba(0,0,0,.80);text-align: center;font-size:15px;width:30px;height:30px;line-height:25px;cursor:pointer;color:#FFF;}                                                           
+  b{font-weight:500;}
+  .tooltip[data-placement="bottom"] .tooltip-box{line-height:28px;}
+  .page-head ~ *:not(header),.home-header ~ *:not(.page-head){/* overflow:hidden; */}

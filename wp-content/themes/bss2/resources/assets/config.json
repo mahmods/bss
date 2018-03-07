@@ -11,7 +11,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/bss/wp-content/themes/bss2",
+  "publicPath": "/wp-content/themes/bss2",
   "devUrl": "http://localhost:8080/bss",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",

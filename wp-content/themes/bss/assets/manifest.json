@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js",
+        "scripts/tornado.js",
+        "scripts/jquery.magnific-popup.min.js",
+        "scripts/script-rtl.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/animations.css",
+        "styles/tornado-rtl.css",
+        "styles/magnific-popup.css",
+        "styles/style_rtl.css"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost:8080/bss/"
+  }
+}
